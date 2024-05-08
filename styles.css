@@ -1,0 +1,61 @@
+.container {
+    position: relative;
+    margin: 5% 30% 5% 0;
+}
+
+.rows-container {
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    position: relative;
+}
+.row img {
+    max-width: 100%;
+    max-height: 30vh;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 12px;
+}
+
+.rows-container .upper-row {
+    margin-right: 0;
+}
+.rows-container .lower-row {
+    margin-right: 30%;
+}
+
+
+.buttons-container {
+    position: absolute;
+    top: calc(30vh + 5%);
+    right: 0;
+    max-width: 80px;
+    max-height: 150px;
+}
+
+button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px 10px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev:hover img {
+    content: url('Assets/arrow-blue-left.png');
+  }
+.next:hover img {
+    content: url('Assets/arrow-blue-right.png');
+}
+
+    
